@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+     <div class="container">
+          <h1>La mia calcolatrice in JS</h1>
+          <div class="calcolatrice">
+          <input type="text" id="display" name="display" class="display" readonly>
+        </div>
+        <div class="calcolatrice">
+            <input type="submit" onclick="numero(7)" id="7" value="7" class="grafica">
+            <input type="submit" onclick="numero(8)" id="8" value="8" class="grafica">
+            <input type="submit" onclick="numero(9)" id="9" value="9" class="grafica">
+            <input type="submit" onclick="numero('/')" id="/" value="/" class="grafica">
+        <div class="calcolatrice">
+            <input type="submit" onclick="numero(4)" id="4" value="4" class="grafica">
+            <input type="submit" onclick="numero(5)" id="5" value="5" class="grafica">
+            <input type="submit" onclick="numero(6)" id="6" value="6" class="grafica">
+            <input type="submit" onclick="numero('*')" id="*" value="x" class="grafica">
+        </div> 
+        <div class="calcolatrice">
+            <input type="submit" onclick="numero(1)" id="1" value="1" class="grafica">
+            <input type="submit" onclick="numero(2)" id="2" value="2" class="grafica">
+            <input type="submit" onclick="numero(3)" id="3" value="3" class="grafica">
+            <input type="submit" onclick="numero('-')" id="-" value="-" class="grafica">
+        </div>
+        <div class="calcolatrice">
+            <input type="submit" onclick="cancella()"  id="C" value="C" class="grafica">
+            <input type="submit" onclick="numero(0)"  id="0" value="0"class="grafica">
+            <input type="submit" onclick="numero('.')" id="." value="," class="grafica">
+            <input type="submit" onclick="numero('+')" id="+" value="+" class="grafica">
+        </div>
+        <div class="calcolatrice">
+            <button value="=" onclick="uguale()" class="uguale">=</button>
+        </div>
+    </div>
+ </div>
+ <script src="js/script.js"></script>
+</body>
+
+</html>
